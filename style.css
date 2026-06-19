@@ -1,0 +1,34 @@
+.contaner{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-container{
+    width: 100%;
+}
+.header_full{
+    background-color: blanchedalmond;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.header .laft-side a img{
+    width: 150px;
+    height: 100px;
+}
+.header .right-side{
+    display: grid;
+    align-content: center;
+}
+.header .right-side ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.header .right-side ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+ /* banner */
